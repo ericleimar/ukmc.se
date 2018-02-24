@@ -1,4 +1,4 @@
-baseurl = "https://ukmc.se"
+baseurl = "http://ukmc.se"
 title = "Uppsala Kristna Motorcykelklubb"
 theme = ""
 # The theme has been integrated in the site and altered.

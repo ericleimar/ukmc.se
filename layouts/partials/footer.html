@@ -1,4 +1,4 @@
-<footer id="footer">
+<!--<footer id="footer">
     <div class="container">
 
         {{ if isset .Site.Params "about_us" }}
@@ -11,7 +11,7 @@
 
         </div>
         <!-- /.col-md-4 -->
-        {{ end }}
+       <!-- {{ end }}
 
         <div class="col-md-4 col-sm-6">
 
@@ -43,7 +43,7 @@
         </div>
         <!-- /.col-md-4 -->
 
-        {{ if isset .Site.Params "address" }}
+     <!--   {{ if isset .Site.Params "address" }}
         <div class="col-md-4 col-sm-6">
 
           <h4>{{ i18n "contactTitle" }}</h4>
@@ -56,7 +56,7 @@
 
         </div>
         <!-- /.col-md-4 -->
-        {{ end }}
+    <!--    {{ end }}
 
     </div>
     <!-- /.container -->
@@ -70,10 +70,10 @@
 _________________________________________________________ -->
 
 <div id="copyright">
-    <div class="container">
+    <div class="container"> 
         <div class="col-md-12">
             {{ if isset .Site.Params "copyright" }}
-            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+            <p class="pull-left" >{{ .Site.Params.copyright | safeHTML }}</p>
             {{ end }}
             <p class="pull-right">
               {{ i18n "templateBy" }} <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.

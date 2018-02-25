@@ -1,20 +1,154 @@
 baseurl = "http://ukmc.se"
-title = "UKMC"
-theme = "dimension"
+title = "Uppsala Kristna Motorcykelklubb"
+theme = ""
+# The theme has been integrated in the site and altered.
 languageCode = "en-us"
-defaultContentLanguage = "en"
-enableRobotsTXT = true
-disableRSS = true
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "sv"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+# Define the number of posts per page
+paginate = 5
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    name = "Hem"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url  = "/blog/"
+    weight = 2
+
+[[menu.main]]
+    name = "Info"
+    identifier = "info"
+    url  = "/info/"
+    weight = 3
+
+[[menu.main]]
+    name = "Kontakt"
+    url  = "/contact/"
+    weight = 4
+
+# Top bar social links menu
+
+[[menu.topbar]]
+    weight = 2
+    name = "Facebook"
+    url = "https://www.facebook.com/groups/uppsalakristnamc/"
+    pre = "<i class='fa fa-2x fa-facebook'></i>"
+
+[[menu.topbar]]
+    weight = 4
+    name = "Email"
+    url = "mailto:styrelsen@ukmc.se"
+    pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
-  title = "UKMC"
-  description = '<!--[-->Uppsala Kristna Motorcykelklubb<!--]--><br />
-                <!--[-->- Sidan är under uppbyggnad - Medlemmar hänvisas tillsvidare till <a href="https://www.facebook.com/groups/uppsalakristnamc">Facebookgruppen</a>.<!--]-->'
-  logo = "fa-diamond"
-  copyright = "UKMC"
+    viewMorePostLink = "/blog/"
+    author = "UKMC"
+    defaultKeywords = [""]
+    defaultDescription = ""
 
-[languages]
-[languages.en]
-languageName = "English"
-weight = 1
-title = "UKMC"
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = ""
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "pink"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "styrelsen@ukmc.se"
+
+    about_us = "<p>För Gud älskade människorna så mycket att han gav dem sin ende Son, för att de som tror på honom inte ska gå under utan ha evigt liv. Gud sände inte sin Son till världen för att döma dem utan för att rädda dem</p>"
+    copyright = "Copyright (C) 2018, UKMC"
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/logo.png"
+    address = """<p><strong>styrelsen@ukmc.se</strong>
+        <br>
+        <strong></strong>
+      </p>
+      """
+    latitude = "59.858132"
+    longitude = "17.690996"
+
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = false
+    text = """<p class="hidden-sm hidden-xs"></p>
+      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
+      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+      </p>
+      """
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carousel]
+    enable = true
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.testimonials]
+    enable = false
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Medlemmar"
+    subtitle = ""
+
+[params.see_more]
+    enable = true
+    icon = "fa fa-question"
+    title = "Nyfiken?"
+    subtitle = "Klicka här för att få veta mer om UKMC"
+    link_url = "/info"
+    link_text = "Mer info"
+
+[params.clients]
+    enable = false
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title = "Andra kristna MC-klubbar"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = true
+    title = "Från vår blogg"
+    subtitle = "Här lägger vi upp nyheter, evenemang, bilder och blogginlägg. Du hittar inlägg om allt mellan Jesus och oljebyten. Gå in och läs!"

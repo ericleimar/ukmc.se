@@ -3,7 +3,7 @@ title = "Säsongsavslut"
 date = "2017-09-23T21:49:20+02:00"
 tags = ["blog"]
 categories = ["blog"]
-banner = "img/blog/IMG_5977-1.JPG"
+banner = "img/blog/IMG_5977.JPG"
 author = "UKMC"
 +++
 

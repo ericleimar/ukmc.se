@@ -3,7 +3,7 @@ title = "Höstavslutning"
 date = "2017-09-16T13:39:46+02:00"
 tags = [""]
 categories = ["blog"]
-banner = "img/blog/20170916_141743_001-01.jpg"
+banner = "img/blog/20170916_141743_001.jpg"
 author = "UKMC"
 +++
 

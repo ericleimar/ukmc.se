@@ -15,18 +15,18 @@ Provkörning på Sulas MC
 Sulas MC bjöd in till provkörning av diverse cyklar och de vi gillade mest var Indian och Victory.
 
 </br>
-<a href="/img/blog/IMG_5535.JPG"> 
+<a href="/img/blog/IMG_5535.jpg"> 
 <img src="/img/blog/IMG_5535-1.JPG" height="auto" width="25%"> 
 </a>
 <a href="/img/blog/banner-4.jpg"> 
 <img src="/img/blog/banner-4.jpg" height="auto" width="25%">
 </a>
-<a href="/img/blog/IMG_5545.JPG"> 
+<a href="/img/blog/IMG_5545.jpg"> 
 <img src="/img/blog/IMG_5545-1.JPG" height="auto" width="25%">
 </a>
 
 <a href="/img/blog/20170902_132935.jpg"> 
-<img src="/img/blog/20170902_132935.jpg" height="auto" width="25%">
+<img src="/img/blog/20170902_132935-1.jpg" height="auto" width="25%">
 </a>
 
 
@@ -42,14 +42,3 @@ Sulas MC bjöd in till provkörning av diverse cyklar och de vi gillade mest var
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-

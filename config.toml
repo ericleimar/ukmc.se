@@ -1,5 +1,7 @@
 baseurl = "http://ukmc.se/"
 title = "Uppsala Kristna Motorcykelklubb"
+description = "Uppsala Kristna Motorcykelklubb är en förening för aktiviteter runt motorcykelkörning. Klubbens medlemmar arrangerar turer, träffar, gemenskap, diskussioner och samtal."
+keywords = "Motorcykel, MC Klubb Uppsala, vänner, Jesus, Gud, köra hoj, forum, blog, träffar, events"
 theme = ""
 # The theme has been integrated in the site and altered.
 languageCode = "en-us"
